@@ -1,0 +1,248 @@
+body {
+    background-color: #f0f4f8;
+    font-family: serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #1f1f1f;
+    color: white;
+    padding-top: 20px;
+}
+
+.gap {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+    bottom: 5px;
+
+}
+
+.header a {
+    padding-top: 8px;
+    text-decoration: none;
+    color: white;
+    margin-left: 10%;
+    margin-bottom: 0.5%;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-bottom: 1px solid rgb(193, 192, 192);
+    padding-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.today {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-bottom: 1px solid rgb(193, 192, 192);
+}
+
+.para {
+    margin-left: 4%;
+}
+
+.topa {
+    border: 2px solid rgb(247, 244, 244);
+    margin-left: 15%;
+    border-radius: 10px;
+    background-color: #ffffff;
+
+}
+
+.cu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-bottom: 1px solid rgb(193, 192, 192);
+}
+
+.cu1 {
+    margin-left: 5%;
+}
+
+.cu2 {
+    margin-left: 1%;
+}
+
+.cuwi {
+    border: 2px solid rgb(247, 244, 244);
+    margin-left: 15%;
+    border-radius: 10px;
+    background-color: #ffffff;
+
+}
+
+.wi,
+.wi1,
+.wi2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(193, 192, 192);
+    gap: 1rem;
+    margin-right: 1.8rem;
+}
+
+.cuwi1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+.cu2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.weather-forecast {
+    border: 2px solid rgb(247, 244, 244);
+    margin-left: 15%;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.weather-w {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.day-w {
+    margin-left: 1%;
+}
+
+.logo i {
+    color: orangered;
+}
+
+.topstories {
+    border: 2px solid rgb(247, 244, 244);
+    margin-right: 20%;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.topstories h2 {
+    margin-left: 2%;
+}
+
+.topstor {
+    margin-left: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2%;
+    border-bottom: 1px solid rgb(100, 97, 97);
+}
+
+
+.topstor p {
+    font-size: 20px;
+
+}
+
+.huge-container {
+    display: flex;
+    gap: 0.6rem;
+
+}
+
+.all {
+    margin-left: 7%;
+    width: 50%;
+}
+
+.all-content {
+    width: 34%;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 20px 0;
+    color: #333;
+    font-size: 14px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-section h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 20px;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer-links {
+    margin-top: 10px;
+}
+
+.footer-links a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
